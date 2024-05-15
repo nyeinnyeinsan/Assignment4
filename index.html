@@ -1,0 +1,192 @@
+Assignment4.html
+<!Doctype html>
+<html lang="=en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width,=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background: rgb(170, 121, 121);
+
+        }
+
+        .header {
+            width: 100%;
+            height: 80px;
+            display: flex;
+
+        }
+
+        .blog {
+            width: 30%;
+            text-align: 60px;
+            text-align: left;
+            margin-top: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            border-bottom: 4px solid blanchedalmond;
+            color: rgb(2, 2, 18);
+        }
+
+        .seeall {
+            width: 70%;
+            height: 60px;
+            text-align: right;
+            margin-top: 10px;
+            
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            border-bottom: 4px solid rgb(125, 98, 58);
+
+        }
+
+        .box {
+            display: flex;
+            flex-direction: wrap;
+            width: 80%;
+            justify-content: center;
+            align-items: center;
+            margin: 200px;
+
+        }
+
+        .card1 {
+            width: 30%;
+            margin: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            cursor: pointer;
+            float: left;
+            transition: .4s;
+            background: rgb(155, 115, 83);
+            position: relative;
+
+        }
+
+        .card2 {
+            width: 30%;
+            margin: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            cursor: pointer;
+            float: left;
+            background: rgb(163, 95, 140);
+            position: relative;
+
+        }
+
+        .card3 {
+            width: 30%;
+            margin: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            cursor: pointer;
+            float: left;
+            background: rgb(174, 164, 103);
+            position: relative;
+        }
+       
+        img {
+            width: 100%;
+            height: 200px;
+            text-align: right;
+        }
+
+        h2 {
+            text-align: center;
+            color: bisque;
+        }
+
+        p {
+            padding: 0px 5px;
+            text-align: center;
+        }
+
+        a {
+            padding: 10px;
+            background-color: beige;
+            display: inline-block;
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+        a.hover {
+            background-color: darkgoldenrod;
+        }
+
+        .entity {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 19px;
+        }
+
+        .entity>div {
+            width: 40%;
+            height: 30px;
+            text-align: center;
+            padding-top: 16px;
+        }
+
+        .button {
+            background: blanchedalmond;
+            right: 40px;
+            position: absolute;
+        }
+    </style>
+
+<body>
+    
+    <div class="header">
+        <div class="blog">
+            <p><i class="fa fa-book" style="font-size:20px;"></i>COOKING BLOG</p>
+        </div>
+        <div class="seeall">
+            <p>See All</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="card1">
+            <img src="./chicken slad.jfif">
+            <button class="button">cooking</button>
+            <h2> Simplest Slad Recipe Ever </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            <div class="entity">
+                <i class="fa fa-clock-o" aria-hidden="true">8 mins ago</i>
+                <div><i class="fa fa-comment"></i>39 comments</div>
+            </div>
+        </div>
+        <div class="card2">
+        <img src="./spagatti.jfif">
+        <button class="button">cooking</button>
+        <h2> Best Firstfood Ideas(yummy) </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <div class="entity">
+            <i class="fa fa-clock-o" aria-hidden="true">6 hours ago</i>
+            <div><i class="fa fa-comment"></i>0 comments</div>
+        </div>
+    </div>
+    <div class="card3">
+    <img src="./pasta.jfif">
+    <button class="button">cooking</button>
+    <h2> Why to eat Slad? </h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <div class="entity">
+        <i class="fa fa-clock-o" aria-hidden="true">16 hours ago</i>
+        <div><i class="fa fa-comment"></i>9 comments</div>
+    </div>
+   
+    </div>
+</body>
+
+</html>
